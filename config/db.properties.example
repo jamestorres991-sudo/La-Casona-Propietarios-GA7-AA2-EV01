@@ -1,0 +1,4 @@
+# Copia este archivo como db.properties y escribe los datos de tu conexión.
+db.url=jdbc:mysql://127.0.0.1:3306/la_casona_ev01?sslMode=REQUIRED&connectTimeout=5000&socketTimeout=10000
+db.usuario=lc_propietarios
+db.clave=
