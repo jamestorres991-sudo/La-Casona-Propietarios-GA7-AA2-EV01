@@ -14,4 +14,3 @@ $rutaJdbc = Join-Path $raizInicio 'lib/mysql-connector-j-9.7.0.jar'
 if ($LASTEXITCODE -ne 0) { throw 'No se pudo preparar la prueba de inicio.' }
 & "$RutaJdk\bin\java.exe" '-Djava.awt.headless=true' -cp "$rutaClases;$rutaJar;$rutaJdbc" lacasona.PruebasInicioAutomatico $rutaPrueba
 if ($LASTEXITCODE -ne 0) { throw 'La prueba del inicio no fue aprobada.' }
-
