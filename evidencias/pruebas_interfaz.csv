@@ -1,0 +1,9 @@
+Caso;Comprobación;Observado;Resultado
+UI-01;Carga inicial de la tabla;Comportamiento comprobado;APROBADO
+UI-02;Botón Guardar crea el propietario;Comportamiento comprobado;APROBADO
+UI-03;Botón Buscar muestra el propietario;Comportamiento comprobado;APROBADO
+UI-04;Seleccionar una fila llena el formulario;Comportamiento comprobado;APROBADO
+UI-05;Botón Guardar actualiza el teléfono;Comportamiento comprobado;APROBADO
+UI-06;Intentar duplicar muestra el aviso y conserva un registro;Comportamiento comprobado;APROBADO
+UI-07;Botón Eliminar borra después de confirmar;Comportamiento comprobado;APROBADO
+UI-08;El formulario informa que el propietario tiene relaciones;Comportamiento comprobado;APROBADO

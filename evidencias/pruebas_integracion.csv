@@ -1,0 +1,27 @@
+Fecha Bogotá;2026-10-11T14:01:56.779236400-05:00
+Base y versión;la_casona_ev01_pruebas / 26.7.0
+Caso;Comprobación;Esperado;Observado;Resultado
+CP-01;Ingresar con recepción;Sesión activa;Sesión activa;APROBADO
+CP-02;Rechazar contraseña incorrecta;Ingreso rechazado;Ingreso rechazado;APROBADO
+CP-03;Crear propietario sin datos opcionales;Registro guardado;Registro guardado;APROBADO
+CP-04;Consultar documento con ceros y nombres con tildes;Datos conservados;Datos conservados;APROBADO
+CP-05;Buscar por documento y tipo;Una coincidencia;Una coincidencia;APROBADO
+CP-06;Buscar nombres;Propietario encontrado;Propietario encontrado;APROBADO
+CP-07;Buscar un documento inexistente;Lista vacía;Lista vacía;APROBADO
+CP-08;Actualizar teléfono y correo;Cambios guardados en el mismo ID;Cambios guardados en el mismo ID;APROBADO
+CP-09;Crear documento duplicado;Rechazo MySQL 1062;Rechazo MySQL 1062;APROBADO
+CP-10;Guardar con nombre vacío;Validación rechazada;Validación rechazada;APROBADO
+CP-11;Superar longitud de nombres;Validación rechazada;Validación rechazada;APROBADO
+CP-12;Guardar correo incorrecto;Validación rechazada;Validación rechazada;APROBADO
+CP-13;Actualizar hacia un documento duplicado;Rechazo y datos conservados;Rechazo y datos conservados;APROBADO
+CP-14;Eliminar propietario sin relaciones;Registro eliminado;Registro eliminado;APROBADO
+CP-15;Eliminar propietario con mascota;Rechazo MySQL 1451;Rechazo MySQL 1451;APROBADO
+CP-16;Eliminar propietario con factura;Rechazo MySQL 1451;Rechazo MySQL 1451;APROBADO
+CP-17;Consultar texto que contiene SQL;Sin interpretar el texto como SQL;Sin interpretar el texto como SQL;APROBADO
+CP-18;Actualizar propietario inexistente;Operación rechazada;Operación rechazada;APROBADO
+CP-19;Usar administración para modificar;Permiso rechazado;Permiso rechazado;APROBADO
+CP-20;Usar inventario para consultar propietarios completos;Permiso rechazado;Permiso rechazado;APROBADO
+CP-21;Cerrar sesión y volver a usar el servicio;Operación rechazada;Operación rechazada;APROBADO
+CP-22;Desactivar cuenta durante la sesión;Operación rechazada;Operación rechazada;APROBADO
+CP-23;Consultar por páginas de 50 registros;Páginas sin repetir registros;Páginas sin repetir registros;APROBADO
+CP-24;Comprobar contraseñas con sal distinta;Hashes distintos y verificables;Hashes distintos y verificables;APROBADO

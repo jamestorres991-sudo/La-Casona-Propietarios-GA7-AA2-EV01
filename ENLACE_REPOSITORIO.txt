@@ -1,0 +1,7 @@
+Evidencia GA7-220501096-AA2-EV01: Codificación de módulos del software
+Aprendiz: James Alberto Torres Peláez
+Programa: Análisis y Desarrollo de Software
+Ficha: 3186594
+
+Repositorio del proyecto:
+https://github.com/jamestorres991-sudo/La-Casona-Propietarios-GA7-AA2-EV01

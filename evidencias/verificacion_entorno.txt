@@ -1,0 +1,11 @@
+version_mysql	puerto
+26.7.0	33317
+TABLE_SCHEMA	tablas
+la_casona_ev01	19
+la_casona_ev01_pruebas	19
+cuentas	transformaciones_distintas
+4	4
+id_propietario	tipo_documento	numero_documento	nombres	apellidos	telefono
+1	CC	1032456789	Laura Marcela	Gómez Pérez	3004567812
+2	CC	1028765432	Carlos Andrés	Ramírez López	3115678923
+3	CC	1045123987	Diana Carolina	Restrepo Martínez	3126789034
