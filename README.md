@@ -29,7 +29,26 @@ Recepción puede gestionar los propietarios. Veterinaria y administración puede
 | `documentacion` | Instrucciones, revisión del alcance y explicación del código. |
 | `evidencias` | Reportes de las pruebas y vistas del formulario. |
 
-## Empezar
+## Abrir con doble clic
+
+1. Extraer todo el ZIP en una carpeta del equipo. No abrir el ejecutable desde dentro del ZIP.
+2. Abrir **La Casona.exe** con doble clic y esperar la preparación inicial.
+3. Ingresar con el usuario **recepcion** y la contraseña **Casona2026!**.
+
+El lanzador busca Java y MySQL instalados. En el primer inicio prepara una base independiente,
+crea las tablas y los registros del módulo, y guarda la conexión. No hace falta abrir Workbench
+ni escribir comandos para este recorrido. Después abre la ventana de ingreso.
+
+Se necesita Java 17 o superior y MySQL Server instalado en Windows. En el equipo de la evidencia
+ambos programas ya están instalados. El ejecutable debe permanecer junto a las carpetas del
+proyecto; no incluye un instalador de Java ni de MySQL.
+
+La carpeta **datos** guarda la base local. Debe conservarse para no perder los registros.
+La configuración y las contraseñas de conexión se crean en el equipo y no se suben al repositorio.
+Si ya existe una conexión configurada, el lanzador la utiliza. Para utilizar una base que administra
+otro servidor, ese servidor debe estar iniciado.
+
+## Configuración manual
 
 Se necesita un **JDK 17 o superior** y **MySQL 8.0.16 o superior**. El proyecto se comprobó en Windows con el JDK 25.0.2 incluido en Android Studio y MySQL 26.7.0. No es obligatorio usar Android Studio para ejecutarlo: se puede indicar otra carpeta de JDK.
 
@@ -51,6 +70,10 @@ Para revisar el módulo, se puede ingresar con el usuario **recepcion** y la con
 Se ejecutaron **24 pruebas de funcionamiento con JDBC y MySQL**, y **8 pruebas de los componentes del formulario Swing**. Las 32 pruebas quedaron aprobadas. Se comprobaron los cambios guardados en la base, los mensajes de validación, los duplicados y el rechazo de eliminaciones con registros relacionados.
 
 Los reportes están en [pruebas de funcionamiento](evidencias/pruebas_integracion.csv) y [pruebas del formulario](evidencias/pruebas_interfaz.csv). El procedimiento está explicado en [cómo realizar las pruebas](documentacion/PRUEBAS.md).
+
+Además, se comprobaron la preparación automática, la estructura, los registros, el ingreso,
+la reapertura y el reinicio de la base del lanzador. Las seis comprobaciones quedaron aprobadas.
+El reporte está en [pruebas del inicio automático](evidencias/pruebas_inicio_automatico.csv).
 
 ![Formulario de propietarios](evidencias/vistas/01_formulario.png)
 

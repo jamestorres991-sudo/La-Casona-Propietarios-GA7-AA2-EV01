@@ -4,6 +4,29 @@
 **Aprendiz:** James Alberto Torres Peláez  
 **Programa:** Análisis y Desarrollo de Software · **Ficha:** 3186594
 
+## Abrir con doble clic
+
+1. Extraer todo el ZIP en una carpeta del equipo. No abrir el ejecutable desde dentro del ZIP.
+2. Abrir **La Casona.exe** con doble clic y esperar la preparación inicial.
+3. Ingresar con el usuario **recepcion** y la contraseña **Casona2026!**.
+
+El lanzador busca Java y MySQL instalados. En el primer inicio prepara una base independiente,
+crea las tablas y los registros del módulo, y guarda la conexión. No hace falta abrir Workbench
+ni escribir comandos para este recorrido. Después abre la ventana de ingreso.
+
+Se necesita Java 17 o superior y MySQL Server instalado en Windows. En el equipo de la evidencia
+ambos programas ya están instalados. El ejecutable debe permanecer junto a las carpetas del
+proyecto; no incluye un instalador de Java ni de MySQL.
+
+La carpeta **datos** guarda la base local. Debe conservarse para no perder los registros.
+La configuración y las contraseñas de conexión se crean en el equipo y no se suben al repositorio.
+Si ya existe una conexión configurada, el lanzador la utiliza. Para utilizar una base que administra
+otro servidor, ese servidor debe estar iniciado.
+
+## Configuración manual del módulo
+
+Los siguientes pasos sirven para configurar una conexión propia o revisar el proyecto desde el código.
+
 ## 1. Revisar los programas
 
 Se necesita Java JDK 17 o superior y el servidor MySQL. MySQL Workbench sirve para abrir y ejecutar los scripts, pero el servidor debe estar iniciado para que la aplicación pueda conectarse.

@@ -1,0 +1,7 @@
+﻿prueba;resultado;comprobación
+Inicio en carpeta nueva;APROBADO;Preparación automática de la base MySQL local
+Estructura;APROBADO;19 tablas y permisos sobre las tres tablas necesarias
+Registros iniciales;APROBADO;Tres propietarios y cuatro cuentas
+Ingreso;APROBADO;Recepción ingresa y tiene permiso de gestión
+Reapertura;APROBADO;Se conserva la configuración de conexión
+Reinicio del servidor;APROBADO;La conexión vuelve a funcionar y conserva los tres propietarios
